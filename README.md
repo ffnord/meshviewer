@@ -152,6 +152,23 @@ In `lib/map.js` you can change the colors and radius for nodes in different stat
 - iconLost: nodes being offline for less than than `maxAge` days (default: grey, radius: 5)
 - iconOffline: offline for more than `maxAge` days up to the maximum prune time of the backend (default: grey, radius: 3)
 
+## siteNames (array, optional)
+
+In this array name definitions for site statistics and node info can be saved. This requires one object for each site code. This object must contain:
+
+- `site` the site code
+- `name` the defined written name for this site code
+
+If neither `siteNames` nor `showSites` are set, site statistics and node info won't be displayed
+
+Example for `siteNames`:
+
+    "siteNames": [
+      { "site": "ffhl", "name": "Lübeck" },
+      { "site": "ffgt", "name": "Gothamcity" },
+      { "site": "ffal", "name": "Atlantis" }
+    ]
+
 # Building
 
 Just run the following command from the meshviewer directory:
