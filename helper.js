@@ -89,6 +89,17 @@ function has_location(d) {
          Math.abs(d.nodeinfo.location.longitude) < 180
 }
 
+function nodeName(d, trim) {
+  var name = ''
+  if (d && d.nodeinfo && d.nodeinfo.hostname)
+    name = d.nodeinfo.hostname
+  else if (d && d.nodeinfo && d.nodeinfo.node_id)
+    name = '[' + d.nodeinfo.node_id + ']'
+  if (trim && name.length > 48)
+    name = name.substring(0,48) + "..."
+  return name
+}
+
 function subtract(a, b) {
   var ids = {}
 
