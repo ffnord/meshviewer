@@ -142,4 +142,29 @@ Examples for `globalInfos`:
 
 In order to have global statistics available, you have to run the backend with parameter `--with-rrd` (this only creates globalGraph.png) or generate them in other ways.
 
+## Colors and Radius for Nodes
+
+In `lib/map.js` you can change the colors and radius for nodes in different states:
+
+- iconNew: Nodes that are online for less than maxAge days (default: green, radius: 6)
+- iconOnline: online for more than `maxAge` days (default blue, radius: 6)
+- iconAlert: nodes offline less than 8 Hours (default: blinking red, radius: 5)
+- iconLost: nodes being offline for less than than `maxAge` days (default: grey, radius: 5)
+- iconOffline: offline for more than `maxAge` days up to the maximum prune time of the backend (default: grey, radius: 3)
+
+# Building
+
+Just run the following command from the meshviewer directory:
+
+    node_modules/.bin/grunt
+
+This will generate `build/` containing all required files.
+
+# Deploy
+
+To deploy the meshviewer on your server, just rsync `build/` into your servers document-home, for example:
+
+    sudo rsync -av --delete build/ /var/www/meshviewer/
+
+
 [CORS enabled]: http://enable-cors.org/server.html
