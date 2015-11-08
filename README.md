@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tcatm/meshviewer.svg?branch=master)](https://travis-ci.org/tcatm/meshviewer)
+[Example: Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
 
 # Meshviewer
 
