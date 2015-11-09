@@ -1,52 +1,25 @@
-[Example: Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
-
 # Meshviewer
 
 Meshviewer is a frontend for
 [ffmap-backend](https://github.com/ffnord/ffmap-backend).
 
-
 [Changelog](CHANGELOG.md)
+
+This is a fork of the original Meshviewer project, which is not maintained by its creator anymore. The aim is to bring some organization into the development of Meshviewer after the discontinuation of the original project. 
+There is no stable release cycle at the moment. Please use the master branch and update your installation regularly. 
 
 # Screenshots
 
-![](doc/mapview.png?raw=true)
-![](doc/graphview.png?raw=true)
-![](doc/allnodes.png?raw=true)
-![](doc/links.png?raw=true)
-![](doc/statistics.png?raw=true)
+![](doc/mapview.png)
+![](doc/graphview.png)
+![](doc/graphview2.png)
 
-# Dependencies
+# Communities using this fork:
 
-- npm
-- bower
-- grunt-cli
-- Sass (>= 3.2)
+- [Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
+- [Freifunk im Ennepe-Ruhr-Kreis](http://map.en.freifunk.ruhr/v4/)
 
-# Installing dependencies
-
-Install npm and Sass with your package-manager. On Debian-like systems run:
-
-    sudo apt-get install npm ruby-sass
-
-or if you have bundler you can install ruby-sass simply via `bundle install`
-
-Execute these commands on your server as a normal user to prepare the dependencies:
-
-    git clone https://github.com/tcatm/meshviewer.git
-    cd meshviewer
-    npm install
-    npm install grunt-cli
-
-# Building
-
-Just run the following command from the meshviewer directory:
-
-    node_modules/.bin/grunt
-
-This will generate `build/` containing all required files.
-
-# Configure
+# Configuration
 
 Copy `config.json.example` to `build/config.json` and change it to match your community.
 
@@ -169,6 +142,28 @@ Example for `siteNames`:
       { "site": "ffal", "name": "Atlantis" }
     ]
 
+# Dependencies
+
+- npm
+- bower
+- grunt-cli
+- Sass (>= 3.2)
+
+# Installing dependencies
+
+Install npm and Sass with your package-manager. On Debian-like systems run:
+
+    sudo apt-get install npm ruby-sass
+
+or if you have bundler you can install ruby-sass simply via `bundle install`
+
+Execute these commands on your server as a normal user to prepare the dependencies:
+
+    git clone https://github.com/tcatm/meshviewer.git
+    cd meshviewer
+    npm install
+    npm install grunt-cli
+
 # Building
 
 Just run the following command from the meshviewer directory:
@@ -183,5 +178,14 @@ To deploy the meshviewer on your server, just rsync `build/` into your servers d
 
     sudo rsync -av --delete build/ /var/www/meshviewer/
 
+# Contribution Policy
+
+Contributions are generally welcome. Please make sure your request meets all the following criteria:
+
+- The changes don't drastically decrease performance and are implemented with weak clients (such as smartphones) in mind.
+- It is impossible to archieve the same result without the changes. Simplifications of existing features are not likely to be accepted.
+- The code is not overcomplicated and uses a style similar to other parts of the codebase.
+
+If you really want a feature don't be afraid to ask. We will make a decision for the individual case or find a reasonable compromise.
 
 [CORS enabled]: http://enable-cors.org/server.html
