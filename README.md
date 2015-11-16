@@ -18,6 +18,7 @@ There is no stable release cycle at the moment. Please use the master branch and
 
 - [Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
 - [Freifunk im Ennepe-Ruhr-Kreis](http://map.en.freifunk.ruhr/v4/)
+- [Freifunk gl.wupper](http://map.gl.wupper.ffrl.de/v4/)
 
 # Configuration
 
