@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/plumpudding/meshviewer.svg?branch=master)](https://travis-ci.org/plumpudding/meshviewer)
+
 # Meshviewer
 
 Meshviewer is a frontend for
@@ -14,7 +16,7 @@ There is no stable release cycle at the moment. Please use the master branch and
 ![](doc/graphview.png)
 ![](doc/graphview2.png)
 
-# Communities using this fork:
+# Communities providing an installation of this fork:
 
 - [Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
 - [Freifunk im Ennepe-Ruhr-Kreis](http://map.en.freifunk.ruhr/v4/)
@@ -188,5 +190,7 @@ Contributions are generally welcome. Please make sure your request meets all the
 - The code is not overcomplicated and uses a style similar to other parts of the codebase.
 
 If you really want a feature don't be afraid to ask. We will make a decision for the individual case or find a reasonable compromise.
+
+If you modify the source be sure to update the links in lib/about.js to match your modified version. 
 
 [CORS enabled]: http://enable-cors.org/server.html
