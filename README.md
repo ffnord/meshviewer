@@ -147,7 +147,7 @@ Example for `siteNames`:
 
 # Building a minimized version
 
-Consider using a [precompiled tarball](http://petabyteboy.de:8090/job/plumpudding_meshviewer/lastSuccessfulBuild/artifact/build.zip) of the latest and greatest master commit
+Consider using a [precompiled tarball](http://petabyteboy.de:8090/job/plumpudding-meshviewer/lastSuccessfulBuild/artifact/build.zip) of the latest and greatest master commit
 
 ## Build dependencies
 
