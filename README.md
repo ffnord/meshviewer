@@ -145,14 +145,18 @@ Example for `siteNames`:
       { "site": "ffal", "name": "Atlantis" }
     ]
 
-# Dependencies
+# Building a minimized version
+
+Consider using a [precompiled tarball](http://petabyteboy.de:8090/job/plumpudding_meshviewer/lastSuccessfulBuild/artifact/build.zip) of the latest and greatest master commit
+
+## Build dependencies
 
 - npm
 - bower
 - grunt-cli
 - Sass (>= 3.2)
 
-# Installing dependencies
+## Installing dependencies
 
 Install npm and Sass with your package-manager. On Debian-like systems run:
 
@@ -167,7 +171,7 @@ Execute these commands on your server as a normal user to prepare the dependenci
     npm install
     npm install grunt-cli
 
-# Building
+## Building
 
 Just run the following command from the meshviewer directory:
 
@@ -177,9 +181,7 @@ This will generate `build/` containing all required files.
 
 # Deploy
 
-To deploy the meshviewer on your server, just rsync `build/` into your servers document-home, for example:
-
-    sudo rsync -av --delete build/ /var/www/meshviewer/
+Place your config.json in the `build/` directory. Now just copy `build/` into your servers document-home (e.g. /var/www/meshviewer/ or /srv/http/meshviewer/).
 
 # Contribution Policy
 
