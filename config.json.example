@@ -1,5 +1,5 @@
 {
-  "dataPaths": [
+  "dataPath": [
     "http://map.gl.wupper.ffrl.de/data/",
     "http://map.ffdus.de/data/",
     "http://map.fichtenfunk.freifunk.ruhr/json/"
