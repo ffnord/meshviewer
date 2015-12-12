@@ -160,7 +160,7 @@ Consider using a [precompiled tarball](http://petabyteboy.de:8090/job/plumpuddin
 
 Install npm and Sass with your package-manager. On Debian-like systems run:
 
-    sudo apt-get install npm ruby-sass
+    sudo apt-get install git npm nodejs-legacy ruby-sass
 
 or if you have bundler you can install ruby-sass simply via `bundle install`
 
