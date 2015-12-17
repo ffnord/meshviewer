@@ -5,6 +5,8 @@
 Meshviewer is a frontend for
 [ffmap-backend](https://github.com/ffnord/ffmap-backend).
 
+# This fork will soon be partly merged into [ffnord/meshviewer](https://github.com/ffnord/meshviewer). Development will continue there.
+
 [Changelog](CHANGELOG.md)
 
 This is a fork of the original Meshviewer project, which is not maintained by its creator anymore. The aim is to bring some organization into the development of Meshviewer after the discontinuation of the original project. 
