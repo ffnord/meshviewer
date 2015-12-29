@@ -365,6 +365,34 @@ table {
       border-radius: 0;
     }
   }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .all-nodes table th{
+    font-size:0pt;
+  }
+
+  .all-nodes table th:first-child:before,
+  .all-nodes table th:nth-of-type(2):before, 
+  .all-nodes table th:nth-of-type(3):before,
+  .all-nodes table th:after{
+    font-size:10pt;
+  }
+
+  .all-nodes table th:first-child{
+    font-size:10pt;
+  }
+
+  .all-nodes table th:nth-of-type(2):before{
+    content:"U";
+  }
+
+  .all-nodes table th:nth-of-type(3):before{
+    content:"C";
+  }
+
+
 }
 
 @media screen and (max-width: $minscreenwidth) {
