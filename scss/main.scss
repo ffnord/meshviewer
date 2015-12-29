@@ -365,6 +365,23 @@ table {
       border-radius: 0;
     }
   }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .all-nodes th:not(:first-child){
+    font-size:8pt;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    max-width: 15pt;
+    padding-bottom: 24pt;
+  }
+  .tabs li{
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: $minscreenwidth) {
