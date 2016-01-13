@@ -1,0 +1,20 @@
+.infobox .chart {
+  position: relative;
+  & > .c3 {
+    margin-right: 20px;
+  }
+
+  .zoom-buttons {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+
+    button {
+      font-size: 10pt;
+      width: 3em;
+      height: 3em;
+      border-radius: 1.5em;
+      margin-left: 6px;
+    }
+  }
+}
