@@ -299,6 +299,7 @@ table {
 }
 
 .sidebar td:not(:first-child), .sidebar th:not(:first-child) {
+  white-space: nowrap;
   text-align: right;
 }
 
