@@ -100,6 +100,12 @@ module.exports = function(grunt) {
           out: "build/app.js"
         }
       }
+    },
+    c3: {
+      src: ["c3.min.css"],
+      expand: true,
+      dest: "build/",
+      cwd: "bower_components/c3/"
     }
   })
 

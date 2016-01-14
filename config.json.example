@@ -17,5 +17,39 @@
     {
       "name": "Stamen.TonerLite"
     }
+  ],
+  "nodeCharts": [
+    {
+      "name": "Statistik",
+      "metrics": [
+        {
+          "id": "clientcount",
+          "color": "#1566A9",
+          "label": "Clients"
+        },
+        {
+          "id": "loadavg",
+          "color": "#1566A9",
+          "label": "Load"
+        },
+        {
+          "id": "uptime",
+          "color": "#1566A9",
+          "label": "Uptime"
+        }
+      ],
+      "defaultMetric": "clientcount",
+      "data": {
+        "url": "http://137.226.33.62:8002/render",
+        "parameters": [
+          "format=json",
+          "from=-###ZOOM_FROM###",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.clientcount,\"###ZOOM_INTERVAL###\",\"max\"),\"clientcount\")",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.loadavg,\"###ZOOM_INTERVAL###\",\"avg\"),\"loadavg\")",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.uptime,\"###ZOOM_INTERVAL###\",\"last\"),\"uptime\")"
+        ]
+      },
+      "quirks": [ "id_to_mac" ]
+    }
   ]
 }
