@@ -30,6 +30,6 @@
   "authors": [
     "Nils Schneider <nils@nilsschneider.net>"
   ],
-  "license": "GPL3",
+  "license": "AGPL3",
   "private": true
 }
