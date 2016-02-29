@@ -93,7 +93,7 @@ module.exports = function(grunt) {
         options: {
           baseUrl: "lib",
           name: "../bower_components/almond/almond",
-          mainConfigFile: "app.js",
+          mainConfigFile: "config.js",
           include: "../app",
           wrap: true,
           optimize: "uglify",
