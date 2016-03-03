@@ -11,7 +11,7 @@
         "subdomains": "1234",
         "type": "osm",
         "attribution": "Tiles &copy; <a href=\"https://www.mapquest.com/\" target=\"_blank\">MapQuest</a>, Data CC-BY-SA OpenStreetMap",
-        "maxZoom": 18
+        "maxZoom": 19
       }
     },
     {
