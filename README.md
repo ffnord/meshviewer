@@ -133,8 +133,7 @@ If neither `siteNames` nor `showSites` are set, site statistics and node info wo
 Example for `siteNames`:
 
     "siteNames": [
-      { "site": "ffhl", "name": "Lübeck" },
-      { "site": "ffgt", "name": "Gothamcity" },
+      { "site": "ffgt", "name": "Gothamcity", "link" : "https://gotham.city" },
       { "site": "ffal", "name": "Atlantis" }
     ]
 
