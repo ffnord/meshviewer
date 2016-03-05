@@ -127,6 +127,7 @@ In this array name definitions for site statistics and node info can be saved. T
 
 - `site` the site code
 - `name` the defined written name for this site code
+- `link` an http address to the community website (optional)
 
 If neither `siteNames` nor `showSites` are set, site statistics and node info won't be displayed
 
