@@ -1,16 +1,9 @@
-[![Build Status](https://travis-ci.org/plumpudding/meshviewer.svg?branch=master)](https://travis-ci.org/plumpudding/meshviewer)
 
 # Meshviewer
 
 Meshviewer is a frontend for
+[map-backend (Bielefeld)](https://github.com/freifunk-bielefeld/server-config/blob/master/freifunk/map-backend.py) and
 [ffmap-backend](https://github.com/ffnord/ffmap-backend).
-
-# This fork will soon be partly merged into [ffnord/meshviewer](https://github.com/ffnord/meshviewer). Development will continue there.
-
-[Changelog](CHANGELOG.md)
-
-This is a fork of the original Meshviewer project, which is not maintained by its creator anymore. The aim is to bring some organization into the development of Meshviewer after the discontinuation of the original project. 
-There is no stable release cycle at the moment. Please use the master branch and update your installation regularly. 
 
 # Screenshots
 
@@ -20,9 +13,7 @@ There is no stable release cycle at the moment. Please use the master branch and
 
 # Communities providing an installation of this fork:
 
-- [Freifunk Düsseldorf-Flingern](http://map.ffdus.de/)
-- [Freifunk im Ennepe-Ruhr-Kreis](http://map.en.freifunk.ruhr/v4/)
-- [Freifunk gl.wupper](http://map.gl.wupper.ffrl.de/v4/)
+- [Freifunk Bielefeld](http://freifunk-bielefeld.de/)
 
 # Configuration
 
