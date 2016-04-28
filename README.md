@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tcatm/meshviewer.svg?branch=master)](https://travis-ci.org/tcatm/meshviewer)
+[![Build Status](https://travis-ci.org/ffnord/meshviewer.svg?branch=master)](https://travis-ci.org/ffnord/meshviewer)
 
 # Meshviewer
 
