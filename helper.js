@@ -1,23 +1,23 @@
 function get(url) {
   return new Promise(function(resolve, reject) {
-    var req = new XMLHttpRequest();
-    req.open('GET', url);
+    var req = new XMLHttpRequest()
+    req.open('GET', url)
 
     req.onload = function() {
       if (req.status == 200) {
-        resolve(req.response);
+        resolve(req.response)
       }
       else {
-        reject(Error(req.statusText));
+        reject(Error(req.statusText))
       }
-    };
+    }
 
     req.onerror = function() {
-      reject(Error("Network Error"));
-    };
+      reject(Error("Network Error"))
+    }
 
-    req.send();
-  });
+    req.send()
+  })
 }
 
 function getJSON(url) {
@@ -75,7 +75,7 @@ function localStorageTest() {
 
 function listReplace(s, subst) {
   for (key in subst) {
-    var re = new RegExp(key, 'g');
+    var re = new RegExp(key, 'g')
     s = s.replace(re, subst[key])
   }
   return s
@@ -149,8 +149,8 @@ function attributeEntry(el, label, value) {
 
 function createIframe(opt, width, height) {
   el = document.createElement("iframe")
-  width = typeof width !== 'undefined' ? width : '525px';
-  height = typeof height !== 'undefined' ? height : '350px';
+  width = typeof width !== 'undefined' ? width : '525px'
+  height = typeof height !== 'undefined' ? height : '350px'
 
   if (opt.src)
     el.src = opt.src
@@ -180,7 +180,7 @@ function createIframe(opt, width, height) {
 
 function showStat(o, subst) {
   var content, caption
-  subst = typeof subst !== 'undefined' ? subst : {};
+  subst = typeof subst !== 'undefined' ? subst : {}
 
   if (o.thumbnail) {
     content = document.createElement("img")
