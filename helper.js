@@ -154,7 +154,7 @@ function attributeEntry(el, label, value) {
 
 function createIframe(opt, width, height) {
   el = document.createElement("iframe")
-  width = typeof width !== 'undefined' ? width : '525px'
+  width = typeof width !== 'undefined' ? width : '100%'
   height = typeof height !== 'undefined' ? height : '350px'
 
   if (opt.src)
