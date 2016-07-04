@@ -101,11 +101,6 @@ table th.sort-up:after {
   content: '\f104';
 }
 
-table.attributes {
-  top: 1px;
-  display: block;
-}
-
 table.attributes th {
   text-align: left;
   font-weight: bold;
@@ -121,44 +116,11 @@ table.attributes td {
   line-height: 1.41em;
 }
 
-table.attributes tr:first-child {
-  max-height: 128px;
-  max-width: 128px;
-  min-width: 128px;
-  min-height: 128px;
-  /*height: 128px;*/
-  /*background-color: green;*/
-}
-
-table.attributes tr:first-child td{
-  font-weight: bold;
-  /*background-color: red;*/
-  font-size: large;
-  vertical-align:bottom;
-}
-
-table.attributes tr:first-child th{
-  font-weight: bold;
-  /*background-color: red;*/
-  font-size: large;
-  vertical-align:bottom;
-}
-
-.nodenamesidebar {
-  position: relative;
-  font-weight: bold;
-  /*background-color: red;*/
-  font-size: large;
-  vertical-align:bottom;
-  bottom: 0px;
-}
-
 .sidebar {
   .infobox, .container {
     @include shadow(2);
     background: rgba(255, 255, 255, 0.97);
     border-radius: 2px;
-    padding-bottom: 30px;
   }
 
   .container.hidden {

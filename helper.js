@@ -130,12 +130,7 @@ function attributeEntry(el, label, value) {
 
   var tr = document.createElement("tr")
   var th = document.createElement("th")
-  if (typeof label === "string")
-    th.textContent = label
-
-  else
-    th.appendChild(label)
-
+  th.textContent = label
   tr.appendChild(th)
 
   var td = document.createElement("td")
