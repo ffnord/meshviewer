@@ -1,8 +1,8 @@
 {
-  "dataPath": "https://map.luebeck.freifunk.net/data/",
-  "siteName": "Freifunk Lübeck",
+  "dataPath": "https://map.ffdus.de/data/",
+  "siteName": "Freifunk Flingern",
   "mapSigmaScale": 0.5,
-  "showContact": true,
+  "showContact": true,  
   "maxAge": 14,
   "mapLayers": [
     {
@@ -12,10 +12,32 @@
       "name": "Stamen.TonerLite"
     }
   ],
+  "nodeInfos": [
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=1&theme=light&width=600&height=300&var-nodeid={NODE_ID}"
+    },  
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=2&theme=light&width=600&height=500&var-nodeid={NODE_ID}"
+    },  
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",  
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=3&theme=light&width=600&height=200&var-nodeid={NODE_ID}"
+    }
+  ],
+  "globalInfos": [
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/global?var-job=dus",
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/global?panelId=1&&theme=light&width=800&height=600&var-job=dus"
+    },
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/global?var-job=dus",
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/global?panelId=8&&theme=light&width=800&height=600&var-job=dus"
+    }
+  ],
+  "linkInfos": [
+    { "href": "https://map.eulenfunk.de/stats/dashboard/db/links?var-source={SOURCE}&var-target={TARGET}",
+      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/links?panelId=1&&theme=light&width=800&height=600&var-source={SOURCE}&var-target={TARGET}"
+    }
+  ],
   "siteNames": [
-    { "site": "ffhl", "name": "Lübeck" },
-    { "site": "ffeh", "name": "Entenhausen" },
-    { "site": "ffgt", "name": "Gothamcity" },
-    { "site": "ffal", "name": "Atlantis" }
+    { "site": "dus", "name": "Flingern" }
   ]
 }
+
