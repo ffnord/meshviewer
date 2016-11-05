@@ -38,6 +38,11 @@
   ],
   "siteNames": [
     { "site": "dus", "name": "Flingern" }
+  ],
+  "hwImg": [
+    { "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
+      "caption": "Knoten {MODELHASH}"
+    }
   ]
 }
 

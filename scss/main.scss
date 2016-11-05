@@ -101,11 +101,6 @@ table th.sort-up:after {
   content: '\f104';
 }
 
-table.attributes {
-  top: 1px;
-  display: block;
-}
-
 table.attributes th {
   text-align: left;
   font-weight: bold;
@@ -121,7 +116,7 @@ table.attributes td {
   line-height: 1.41em;
 }
 
-table.attributes tr:first-child {
+table.attributes tr.routerpic {
   max-height: 128px;
   max-width: 128px;
   min-width: 128px;
@@ -130,14 +125,14 @@ table.attributes tr:first-child {
   /*background-color: green;*/
 }
 
-table.attributes tr:first-child td{
+table.attributes tr.routerpic td {
   font-weight: bold;
   /*background-color: red;*/
   font-size: large;
   vertical-align:bottom;
 }
 
-table.attributes tr:first-child th{
+table.attributes tr.routerpic th {
   font-weight: bold;
   /*background-color: red;*/
   font-size: large;
@@ -158,7 +153,6 @@ table.attributes tr:first-child th{
     @include shadow(2);
     background: rgba(255, 255, 255, 0.97);
     border-radius: 2px;
-    padding-bottom: 30px;
   }
 
   .container.hidden {
@@ -264,6 +258,8 @@ button.close {
   border-radius: 0;
   color: rgba(0, 0, 0, 0.5);
   font-family: "ionicons";
+  position: absolute;
+  right: 0;
 
   &:hover {
     color: #dc0067;
