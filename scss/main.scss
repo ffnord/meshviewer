@@ -71,6 +71,7 @@ body {
   padding: 0;
   font-family: 'Roboto Slab', serif;
   font-size: 11pt;
+  color: #333;
 }
 
 th.sort-header::selection {
@@ -219,6 +220,7 @@ button {
   @include shadow(1);
   border-radius: 0.9em;
   background: rgba(255, 255, 255, 0.7);
+  color: #333;
   border: none;
   cursor: pointer;
   height: 1.8em;
@@ -361,7 +363,7 @@ table {
   position: absolute;
   top: $buttondistance;
   left: $buttondistance;
-  margin-bottom: $buttondistance;
+  padding-bottom: $buttondistance;
   transition: left 0.5s;
 }
 
