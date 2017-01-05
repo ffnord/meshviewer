@@ -4,18 +4,15 @@
 # Meshviewer
 
 Meshviewer is a frontend for
-[map-backend (Bielefeld)](https://github.com/freifunk-bielefeld/server-config/blob/master/freifunk/map-backend.py) and
 [ffmap-backend](https://github.com/ffnord/ffmap-backend).
+
+[Changelog](CHANGELOG.md)
 
 # Screenshots
 
 ![](doc/mapview.png)
 ![](doc/graphview.png)
 ![](doc/graphview2.png)
-
-# Communities providing an installation of this fork:
-
-- [Freifunk Bielefeld](http://freifunk-bielefeld.de/)
 
 # Configuration
 
@@ -161,7 +158,7 @@ or if you have bundler you can install ruby-sass simply via `bundle install`
 
 Execute these commands on your server as a normal user to prepare the dependencies:
 
-    git clone https://github.com/freifunk-bielefeld/meshviewer.git
+    git clone https://github.com/ffnord/meshviewer.git
     cd meshviewer
     npm install
     npm install grunt-cli
