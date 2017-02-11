@@ -29,7 +29,7 @@ On Mac you have to install only npm via brew and sass
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install node
-    sudo gem install sass
+    npm install node-sass
 
 Execute these commands on your server as a normal user to prepare the dependencies:
 
