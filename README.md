@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/plumpudding/hopglass.svg?branch=master)](https://travis-ci.org/plumpudding/hopglass)
+[![Build Status](https://travis-ci.org/hopglass/hopglass.svg?branch=master)](https://travis-ci.org/hopglass/hopglass)
 
 # HopGlass
 
-HopGlass is a frontend for the [HopGlass Server](https://github.com/plumpudding/hopglass-server).
+HopGlass is a frontend for the [HopGlass Server](https://github.com/hopglass/hopglass-server).
 
 # Screenshots
 
@@ -33,7 +33,7 @@ On Mac you have to install only npm via brew and sass
 
 Execute these commands on your server as a normal user to prepare the dependencies:
 
-    git clone https://github.com/plumpudding/hopglass
+    git clone https://github.com/hopglass/hopglass
     cd hopglass
     npm install
     npm install grunt-cli
@@ -52,7 +52,7 @@ Copy `config.json.example` to `build/config.json` and change it to match your co
 
 ## dataPath (string/array)
 
-`dataPath` can be either a string containing the address of a [HopGlass Server](https://github.com/plumpudding/hopglass-server) or an array containing multiple addresses.
+`dataPath` can be either a string containing the address of a [HopGlass Server](https://github.com/hopglass/hopglass-server) or an array containing multiple addresses.
 Don't forget the trailing slash!
 Also, proxying the data through a webserver will allow GZip and thus will greatly reduce bandwidth consumption.
 It may help with firewall problems too.
