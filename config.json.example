@@ -5,11 +5,25 @@
   "showContact": true,  
   "maxAge": 14,
   "mapLayers": [
+    { "name": "CartoDB",
+      "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+      "config": {
+        "maxZoom": 18,
+        "attribution": "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, &copy; | <a href=\"https://carto.com/attribution\">CARTO</a>"
+      }
+    },
     {
       "name": "OpenStreetMap.HOT"
     },
     {
-      "name": "Stamen.TonerLite"
+      "name": "Luftbilder NRW",
+      "url": "https://www.wms.nrw.de/geobasis/wms_nw_dop20?",
+      "config": {
+        "maxZoom": 20,
+        "attribution": "<a href=\"http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/luftbilderzeugnisse/digitale_orthophotos/index.html\">DOP20</a>, Land NRW (2017), Datenlizenz Deutschland - Namensnennung - Version 2.0 (<a href=\"https://www.govdata.de/dl-de/by-2-0\">www.govdata.de/dl-de/by-2-0</a>)",
+        "format": "image/jpeg",
+        "layers": "nw_dop20"
+      }
     }
   ],
   "nodeInfos": [
