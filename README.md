@@ -67,6 +67,10 @@ Change this to match your communities' name. It will be used in various places.
 This affects the initial scale of the map. Greater values will show a larger
 area. Values like 1.0 and 0.5 might be good choices.
 
+## mapLatOffset and mapLngOffset (float)
+
+Normally the center of your map is calculated by the geo coordinates of your nodes. If you want to center the map slightly different, you can use mapLatOffset and mapLngOffset. A value of 0 will center the map as normal. Value can be negativ.
+
 ## showContact (bool)
 
 Setting this to `false` will hide contact information for nodes.
