@@ -3,7 +3,7 @@
   "siteName": "Freifunk Lübeck",
   "mapSigmaScale": 0.5,
   "mapLatOffset": 0.1,
-  'mapLngOffset': -0.1,
+  "mapLngOffset": -0.1,
   "showContact": true,
   "maxAge": 14,
   "mapLayers": [
