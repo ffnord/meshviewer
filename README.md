@@ -1,3 +1,13 @@
+# This Fork is not maintained!
+
+This was the original branch of the Meshviewer, but it is not further developed here. There are two main branches, that are worked on.
+
+Please use https://github.com/ffrgb/meshviewer or https://github.com/hopglass/hopglass
+
+If you are a developer, please consider joining one of those follow-up projects.
+
+---
+
 [![Build Status](https://travis-ci.org/ffnord/meshviewer.svg?branch=master)](https://travis-ci.org/ffnord/meshviewer)
 
 # Meshviewer
